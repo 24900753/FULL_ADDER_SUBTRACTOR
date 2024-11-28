@@ -44,7 +44,7 @@ Write the detailed procedure here
 
 **Program:**
 
-module fulladder (a,b,cin,sum,carry,bo,diff);
+    module fulladder (a,b,cin,sum,carry,bo,diff);
     input a,b,cin;
     output sum,carry,bo,diff;
 
@@ -52,7 +52,7 @@ module fulladder (a,b,cin,sum,carry,bo,diff);
     assign carry=((a^b) &cin) | (a&b);
     assign diff=a^b^cin;
     assign bo=((~(a^b)) &cin) | (~a) &b;
-endmodule
+    endmodule
 
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by:2490053
 RegisterNumber:VIGNESH V
