@@ -43,6 +43,7 @@ Borrow out = A'Bin + A'B + BBin
 Write the detailed procedure here
 
 **Program:**
+
 module fulladder (a,b,cin,sum,carry,bo,diff);
     input a,b,cin;
     output sum,carry,bo,diff;
