@@ -38,6 +38,9 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+![project 555](https://github.com/user-attachments/assets/9367e93c-737c-4825-85fa-0307e4f82dc2)
+
+
 **Procedure**
 
 Write the detailed procedure here
@@ -54,8 +57,8 @@ Write the detailed procedure here
     assign bo=((~(a^b)) &cin) | (~a) &b;
     endmodule
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by:2490053
-RegisterNumber:VIGNESH V
+/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by:VIGNESH V
+RegisterNumber:24900753
 */
 
 **RTL Schematic**
